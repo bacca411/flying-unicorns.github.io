@@ -11,7 +11,7 @@ export default function Navbar() {
     { href: "/Toys", label: "Toys" },
     { href: "/Fan-Scifi", label: "Fantasy/Sci-Fi Decor" },
     { href: "/Items", label: "Game Items" },
-    { href: "/Decor", label: "Decor" },
+    { href: "/Decor", label: "Collectables" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -23,7 +23,7 @@ export default function Navbar() {
           href="/"
           className="text-white text-2xl font-extrabold drop-shadow-[0_0_10px_rgba(255,0,0,0.8)] hover:text-red-500 transition"
         >
-          Flying Unicorn
+          Flying Unicorns
         </Link>
 
         {/* Links */}
