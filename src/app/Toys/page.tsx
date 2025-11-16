@@ -7,33 +7,80 @@ export default function ToysPage() {
         Toys
       </h1>
 
+      {/* Brand Copy */}
+      <p className="text-center max-w-3xl mx-auto text-gray-300 mb-6 leading-relaxed">
+        Welcome to the playful side of Flying Unicorns! Our 3D-printed toys are crafted 
+        with premium materials, bold colors, and a whole lot of nerdly spirit. From flexi 
+        creatures to adorable dragons, every print is designed to spark joy, brighten your 
+        space, and bring imagination to life.
+      </p>
+
+      <p className="text-center max-w-3xl mx-auto text-gray-300 mb-10 leading-relaxed">
+        Whether you&apos;re collecting, gifting, or just embracing your inner geek, our toys 
+        are made to move, wiggle, and entertain. Each piece is printed with care and 
+        tested for smooth articulation and vibrant detail — because toys should be fun, 
+        high-quality, and downright magical.
+      </p>
+
+
+      {/* Certifications */}
       <p className="text-center max-w-3xl mx-auto text-gray-300 mb-8">
         Flying Unicorns is a certified merchant for the following toy companies:
       </p>
 
       <ul className="text-gray-400 max-w-3xl mx-auto space-y-2 mb-12">
         <li>
-          • <a href="https://flexifactory.com" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-500 hover:underline transition">
+          •{" "}
+          <a
+            href="https://flexifactory.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 hover:text-red-500 hover:underline transition"
+          >
             Flexi Factory
           </a>
         </li>
         <li>
-          • <a href="https://krakdrag.com" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-500 hover:underline transition">
+          •{" "}
+          <a
+            href="https://krakdrag.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 hover:text-red-500 hover:underline transition"
+          >
             Krak Drag
           </a>
         </li>
         <li>
-          • <a href="https://vexo3d.com" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-500 hover:underline transition">
+          •{" "}
+          <a
+            href="https://vexo3d.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 hover:text-red-500 hover:underline transition"
+          >
             Vexo
           </a>
         </li>
         <li>
-          • <a href="https://bitscrafts.com" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-500 hover:underline transition">
+          •{" "}
+          <a
+            href="https://bitscrafts.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 hover:text-red-500 hover:underline transition"
+          >
             Bits Crafts
           </a>
         </li>
         <li>
-          • <a href="https://stlwarehouse.co" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-500 hover:underline transition">
+          •{" "}
+          <a
+            href="https://stlwarehouse.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 hover:text-red-500 hover:underline transition"
+          >
             STL Warehouse Dinosaurs
           </a>
         </li>
@@ -51,6 +98,7 @@ export default function ToysPage() {
             priority
           />
         </div>
+
         <div className="rounded-xl overflow-hidden shadow-lg hover:scale-105 transition">
           <Image
             src="/three-dragons.jpg"
@@ -62,9 +110,10 @@ export default function ToysPage() {
         </div>
       </div>
 
+      {/* Commission Statement */}
       <p className="mt-12 text-center text-gray-400 italic">
-        Flying Unicorns accepts commissioned printing requests if you have a pattern you want produced.
-        Please contact us via email for more information.
+        Flying Unicorns accepts commissioned printing requests if you have a pattern you 
+        want produced. Please contact us via email for more information.
       </p>
     </main>
   );
