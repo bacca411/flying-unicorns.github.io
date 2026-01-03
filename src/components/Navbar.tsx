@@ -8,12 +8,12 @@ export default function Navbar() {
 
   const links = [
     { href: "/", label: "Home" },
+    { href: "/Items", label: "RPG/Game Materials" },
+    { href: "/Fan-Scifi", label: "Fantasy & Sci-Fi Decor" },
     { href: "/Toys", label: "Toys" },
-    { href: "/Fan-Scifi", label: "Fantasy/Sci-Fi Decor" },
-    { href: "/Items", label: "Game Items" },
-    { href: "/Decor", label: "Collectables" },
     { href: "/contact", label: "Contact" },
   ];
+  
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-gradient-to-r from-black via-gray-900 to-red-900 shadow-lg border-b border-[rgba(255,0,0,0.4)]">
